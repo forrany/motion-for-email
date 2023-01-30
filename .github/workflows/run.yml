@@ -6,8 +6,8 @@ on:
   #pull_request:
   #  branches: [ main ]
   schedule:
-    # - cron: '2 0,2,4,7,10,12,14 * * *' # 每天运行六次，分钟时随机值(0,2,4,7,10,12,14)
-    - cron: '0 13 * * *' # 13 + 8 = 21:00运行
+    # - cron: '5 0,2,4,7,10,12,14 * * *' # 每天运行六次，分钟时随机值(0,2,4,7,10,12,14)
+    - cron: '5 13 * * *' # 13 + 8 = 21:00运行
   watch:
     types: started
   workflow_dispatch:
