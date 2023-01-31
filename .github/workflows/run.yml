@@ -7,7 +7,7 @@ on:
   #  branches: [ main ]
   schedule:
     # - cron: '22 0,2,4,7,10,12,14 * * *' # 每天运行六次，分钟时随机值(0,2,4,7,10,12,14)
-    - cron: '22 13 * * *' # 13 + 8 = 21:00运行
+    - cron: '10 13 * * *' # 13 + 8 = 21:00运行
   watch:
     types: started
   workflow_dispatch:
